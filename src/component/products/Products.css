@@ -1,0 +1,255 @@
+ol, ul{
+    padding-left: 0 ;
+    margin-bottom: 0 ;
+}
+
+.preloader{
+    width: 100%;
+    height: 100vH;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.allProductSection{
+    margin-top: 20px;
+}
+
+.productLink{
+    text-decoration: none;
+}
+
+.product{
+    background: #fff;
+    border:  1px solid #f1f2f3;
+    padding: 36px 36px 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.product .productTitle .productName{
+    color: #444;
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+.product .productTitle ul li{
+    margin: 5px 0;
+}
+
+.product .productTitle ul li span{
+    font-weight: 500;
+    color: #444;
+}
+
+.product .productTitle ul li span:first-child{
+    font-weight: 600;
+}
+
+.ProdcutImg img{
+    width: 200px;
+    height: 200px;
+}
+
+@media only screen and (max-width: 600px){
+    .ProdcutImg{
+        padding-bottom: 45px;
+    }
+
+    .product{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.product_img{
+    width: 100%;
+    height: 420px;
+}
+
+.product_img_slider{
+    border-top: 1px solid #f1f2f3;
+    border-left: 1px solid #f1f2f3;
+    border-right: 1px solid #f1f2f3;
+}
+
+.slider_product .lightbox{
+    cursor: zoom-in;
+}
+
+.product_thumb{
+    border: 1px solid #f1f2f3;
+    width: 100%;
+    height: 120px;
+    cursor: pointer;
+}
+
+.swiper-button-next, .swiper-button-prev{
+    color: #fff !important;
+    font-weight: 700;
+}
+
+.product_into{
+    background: #fff;
+    margin-top: 20px;
+}
+
+.product_title{
+    margin: 20px 0;
+    padding-left: 5px;
+    padding-top: 15px;
+    border-bottom: 1px solid #f1f2f3;
+}
+
+.product_title h1{
+    color: #444;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.product_title p{
+    color: #444;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.product_price{
+    padding: 15px 0;
+}
+
+.product_price .price{
+    border: 1px solid #f1f2f3;
+    padding: 2px;
+}
+
+.product_price .price:hover{
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.product_price p{
+    color: #444;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.product_price span{
+    color: #555;
+    font-weight: 500;
+}
+
+.affiliate_market{
+    margin-top: 0px;
+}
+
+.affiliate_link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0;
+    margin: 15px 0;
+    border: 1px solid #f1f2f3;
+    /* transition: all linear 0.s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s; */
+}
+
+.affiliate_link:hover{
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.affiliate_link span{
+    color: #555;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.affiliate_link button{
+    margin-right: 10px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #444;
+    font-weight: 600;
+    border: none;
+    transform: scale(1);
+    transition: all linear 0.s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+}
+
+.affiliate_link button:hover{
+    transform: scale(1.1);
+}
+/* ======= product price end ======= */
+
+
+.product_specification{
+    margin-top: 5rem;
+    background: #fff;
+}
+
+.product_name{
+    padding: 20px 0;
+}
+
+.product_name h2{
+    margin-left: 5px;
+    color: #444;
+    font-weight: 600;
+    font-size: 33px;
+}
+
+.table{
+    border: 1px solid #f1f2f3;
+}
+
+thead tr th span{
+    color: #444;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+thead tr th span i{
+    color: #666;
+}
+
+thead tr th{
+    border-bottom-color:#f1f2f3 !important;
+}
+
+.specification_icon{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.spec_title{
+    font-weight: 600;
+    color: #444;
+    padding: 10px;
+    width: 160px;
+    vertical-align: middle;
+    background: #f7f8f9 !important;
+    background: #0000;
+    border-right: 1px solid #f1f2f3;
+}
+
+.spec_value{
+    color: #666;
+}
+
+
+
+
+
+
+
